@@ -1,5 +1,5 @@
 import React ,{ useState, useEffect } from 'react';
-import store, { models } from './store';
+import { models } from './store';
 import Quiver from './Quiver';
 import uuid from 'uuid';
 
@@ -48,6 +48,7 @@ export default function SgrApp() {
          ))}
          </div>
      ))}
+     <h1>QUIVER</h1>
      <Quiver quiver={quiver}/>
     </div>
   )
